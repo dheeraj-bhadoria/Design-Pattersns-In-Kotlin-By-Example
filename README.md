@@ -249,7 +249,7 @@ User 'admin' is logged in: true
 User 'Unknown' is logged in: false
 ```
 
-[Chain of Responsibility](/patterns/src/test/kotlin/ChainOfResponsibility.kt)
+[Chain of Responsibility](/ChainOfResponsibility.kt)
 -----------------------
 
 The chain of responsibility pattern is used to process varied requests, each of which may be dealt with by a different handler.
