@@ -32,7 +32,7 @@ Behavioral
 >
 >**Source:** [wikipedia.org](http://en.wikipedia.org/wiki/Behavioral_pattern)
 
-[Observer / Listener](/patterns/src/test/kotlin/Listener.kt)
+[Observer / Listener](/Listener.kt)
 --------
 
 The observer pattern is used to allow an object to publish changes to its state.
@@ -85,7 +85,7 @@ Text is changed <empty> -> Lorem ipsum
 Text is changed Lorem ipsum -> dolor sit amet
 ```
 
-[Strategy](/patterns/src/test/kotlin/Strategy.kt)
+[Strategy](/Strategy.kt)
 -----------
 
 The strategy pattern is used to create an interchangeable family of algorithms from which the required process is chosen at run-time.
@@ -127,7 +127,7 @@ LOREM IPSUM DOLOR SIT AMET
 Prefix: LOREM ipsum DOLOR sit amet
 ```
 
-[Command](/patterns/src/test/kotlin/Command.kt)
+[Command](/Command.kt)
 -------
 
 The command pattern is used to express a request, including the call to be made and all of its required parameters, in a command object. The command may then be executed immediately or held for later use.
@@ -184,7 +184,7 @@ Paying for order with id: 2
 Paying for order with id: 1
 ```
 
-[State](/patterns/src/test/kotlin/State.kt)
+[State](/State.kt)
 ------
 
 The state pattern is used to alter the behaviour of an object as its internal state changes.
@@ -326,7 +326,7 @@ Body:
 }
 ```
 
-[Visitor](/patterns/src/test/kotlin/Visitor.kt)
+[Visitor](/Visitor.kt)
 -------
 
 The visitor pattern is used to separate a relatively complex set of structured data classes from the functionality that may be performed upon the data that they hold.
@@ -411,7 +411,7 @@ Monthly cost: 5333
 Yearly cost: 20000
 ```
 
-[Mediator](/patterns/src/test/kotlin/Mediator.kt)
+[Mediator](/Mediator.kt)
 -------
 
 Mediator design pattern is used to provide a centralized communication medium between different objects in a system. This pattern is very helpful in an enterprise application where multiple objects are interacting with each other.
@@ -468,7 +468,7 @@ Alice: Message received: Hi everyone!
 Bob: Message received: Hi everyone!
 ```
 
-[Memento](/patterns/src/test/kotlin/Memento.kt)
+[Memento](/Memento.kt)
 -------
 
 The memento pattern is a software design pattern that provides the ability to restore an object to its previous state (undo via rollback).
@@ -537,7 +537,7 @@ Creational
 >
 >**Source:** [wikipedia.org](http://en.wikipedia.org/wiki/Creational_pattern)
 
-[Builder / Assembler](/patterns/src/test/kotlin/Builder.kt)
+[Builder / Assembler](/Builder.kt)
 ----------
 
 The builder pattern is used to create complex objects with constituent parts that must be created in the same order or using a specific algorithm.
@@ -656,7 +656,7 @@ showing image with size 0
 showing dialog Dialog@5f184fc6
 ```
 
-[Factory Method](/patterns/src/test/kotlin/FactoryMethod.kt)
+[Factory Method](/FactoryMethod.kt)
 -----------------
 
 The factory pattern is used to replace class constructors, abstracting the process of object generation so that the type of the object instantiated can be determined at run-time.
@@ -710,7 +710,7 @@ US currency: USD
 UK currency: No Currency Code Available
 ```
 
-[Singleton](/patterns/src/test/kotlin/Singleton.kt)
+[Singleton](/Singleton.kt)
 ------------
 
 The singleton pattern ensures that only one object of a particular class is ever created.
@@ -746,7 +746,7 @@ Printing with object: PrinterDriver@6ff3c5b5
 Printing with object: PrinterDriver@6ff3c5b5
 ```
 
-[Abstract Factory](/patterns/src/test/kotlin/AbstractFactory.kt)
+[Abstract Factory](/AbstractFactory.kt)
 -------------------
 
 The abstract factory pattern is used to provide a client with a set of related or dependant objects.
@@ -803,7 +803,7 @@ Structural
 >
 >**Source:** [wikipedia.org](http://en.wikipedia.org/wiki/Structural_pattern)
 
-[Adapter](/patterns/src/test/kotlin/Adapter.kt)
+[Adapter](/Adapter.kt)
 ----------
 
 The adapter pattern is used to provide a link between two otherwise incompatible types by wrapping the "adaptee" with a class that supports the interface required by the client.
@@ -852,7 +852,7 @@ println("${fahrenheitTemperature.temperature} F -> ${celsiusTemperature.temperat
 100.0 F -> 37.77777777777778 C
 ```
 
-[Decorator](/patterns/src/test/kotlin/Decorator.kt)
+[Decorator](/Decorator.kt)
 ------------
 
 The decorator pattern is used to extend or alter the functionality of objects at run-time by wrapping them in an object of a decorator class.
@@ -917,7 +917,7 @@ Normal: Making small coffee
 Enhanced: Adding milk
 ```
 
-[Facade](/patterns/src/test/kotlin/Facade.kt)
+[Facade](/Facade.kt)
 ---------
 
 The facade pattern is used to define a simplified interface to a more complex subsystem.
@@ -975,7 +975,7 @@ Storing cached data: {USER_KEY=dbacinski} to file: /data/default.prefs
 Found stored user: User(login=dbacinski)
 ```
 
-[Protection Proxy](/patterns/src/test/kotlin/ProtectionProxy.kt)
+[Protection Proxy](/ProtectionProxy.kt)
 ------------------
 
 The proxy pattern is used to provide a surrogate or placeholder object, which references an underlying object.
@@ -1028,7 +1028,7 @@ Reading file: readme.md
 
 
 
-[Composite](/patterns/src/test/kotlin/Composite.kt)
+[Composite](/Composite.kt)
 ------------------
 
 The composite pattern is used to compose zero-or-more similar 
